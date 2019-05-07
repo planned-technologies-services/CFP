@@ -1,0 +1,56 @@
+<log xmlns="urn:schemas-codeontime-com:xml-builder" xmlns:aquarium="urn:schemas-codeontime-com:data-aquarium" xmlns:app="urn:schemas-codeontime-com:data-aquarium-application" xmlns:a="urn:schemas-codeontime-com:data-aquarium">
+  <c y="NodeSet" t="2017-06-04T07:47:37">
+    <page name="Division1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T07:53:41">
+    <page name="Division" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T08:04:32">
+    <page name="SalespersonTarget1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T08:04:36">
+    <page name="SalespersonTarget2" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T08:49:05">
+    <page name="BudgetYear1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T10:52:46">
+    <page name="User" />
+    <dataView id="view1" />
+    <update>
+      <Tag>material-icon-person</Tag>
+    </update>
+  </c>
+  <c y="NodeSet" t="2017-06-04T10:54:43">
+    <page name="User" />
+    <dataView id="view1" />
+    <update>
+      <Tag />
+    </update>
+  </c>
+  <c y="NodeSet" t="2017-06-04T12:55:58">
+    <page name="BudgetYear" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T12:56:01">
+    <page name="JobByMonth" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T12:56:04">
+    <page name="SalespersonTarget" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T12:56:11">
+    <page name="User" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2017-06-04T12:56:14">
+    <page name="UserImage" />
+    <delete />
+  </c>
+</log>

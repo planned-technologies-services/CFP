@@ -1,0 +1,57 @@
+<!-- 
+  This file is provided to store the settings for your Data Aquarium project. 
+  You can safely delete this file if no further code generation is planned.
+-->
+<project compatibility="20111118" dataModel="required" subscriptionLevel="Unlimited" name="CFP" prettyName="CFP" type="Web Site Factory" codeDomProvider="CSharp" targetFramework="4.6" userInterface="TouchUI" pageImplementation="html" sourceControl="" databaseChanged="true" displayName="" group="" appGenVersion="8.7.10.0" xmlns="urn:schemas-codeontime-com:data-aquarium-project">
+  <connectionString hostDatabaseSharing="false" sessionStateMode="None">Data Source=DC01;Initial Catalog=CFP;Persist Security Info=True;User ID=sa;Password=ADPc1217;</connectionString>
+  <providerName>System.Data.SqlClient</providerName>
+  <namespace>MyCompany</namespace>
+  <webServer run="true" port="36658" preview="Browser" client="">
+    <webConfig></webConfig>
+  </webServer>
+  <features useSaveAndNew="true" pageHeader="Century Fire Protection" copyright="Copyright(c)2017. Planned Technologies Services, Inc. All Rights Reserved." annotations="false" annotationsPath="" newColumn="true" floating="false" maxGridFields="100" multiSelect="false" batchEdit="false" advancedSearch="false" advancedLookup="true" relationshipExplorer="true" enablePermalinks="true" enableHistory="true" enableTransactions="false" showModalForms="true" tabViewSelection="10">
+    <navigation detectUnderscoreSeparatedSchema="" />
+    <blob allowUploadOnInsert="true" />
+    <framework scriptOnly="true" useExtenders="false" />
+    <grid actionColumn="false" />
+    <touch desktopDisplayDensity="Tiny" mobileDisplayDensity="Auto" transitions="" sidebar="Landscape" labelsInList="DisplayedBelow" initialListMode="SeeAll" menu="toolbar" promoteActions="true" smartDates="true" mapApiIdentifier="" mapApiIdentifierMobile="" />
+    <cms searchEngine="" analysisEngine="" analysisOnDataPages="false" />
+    <ease urlHashing="true">
+      <auditing>Modified By User Name = ModifiedBy|updated_by
+Modified By User ID      = ModifiedByUserId
+Modified On Date          = ModifiedOn|updated|update_date|updated_date
+Created By User Name  = CreatedBy
+Created By User ID       = CreatedById|created_user_id
+Created On Date           = CreatedOn|create_date|created_by</auditing>
+    </ease>
+    <packageProperties></packageProperties>
+    <smtp deliveryMethod="Network" deliveryFormat="" from="" clientDomain="" targetName="" host="" port="" defaultCredentials="true" enableSsl="false" username="" password="" />
+  </features>
+  <reports enabled="true" version="14" />
+  <host path="" url="" />
+  <databaseObjectFilter generate="ControllersAndPages"></databaseObjectFilter>
+  <native windows="false" android="false" ios="false" osx="false" />
+  <bll normalizeModelNames="true" discoveryDepth="3" labelFormatExpression="" selectMethod="Select" selectSingleMethod="SelectSingle" insertMethod="Insert" updateMethod="Update" deleteMethod="Delete" generateSharedBusinessRules="true" includeViews="true" tabViewSelection="0">
+    <fieldMap></fieldMap>
+    <keys></keys>
+    <fieldsToIgnore></fieldsToIgnore>
+    <fieldsToHide></fieldsToHide>
+    <customLabels></customLabels>
+  </bll>
+  <membership enabled="false" providerName="System.Data.SqlClient" connectionString="" windowsAuthentication="false" activeDirectory="false" customSecurity="true" dedicatedLogin="true" displayRememberMe="true" rememberMeSet="true" displaySignUp="false" displayPasswordRecovery="false" displayMyAccount="false" displayHelp="true" idleUserDetectionTimeout="-1" tabViewSelection="0" validationKey="0FDBD59613ACC3B81D82BBDE88E1A248ED65D9B17E932B55B9D0F61D820FAF26DC199AB3AF3844ABDABD333FAA58725B2D0D8EF128561C1DFF4730B32217D1C2">
+    <adConfig></adConfig>
+    <config>table Users=[User]
+column [int|uiid] UserID = userid 
+column [text] UserName = username
+column [text] Password = password
+
+role Administrators = mpaul
+role Users = *
+
+option Create Standard User Accounts = false 
+option Password Format = Clear</config>
+  </membership>
+  <globalization uiCulture="en-US" culture="en-US" enableClientBasedCulture="false" supportedCultures="en-US,en-US; " googleTranslateApiKey="" />
+  <layout name="Classic" menuStyle="MultiLevel" />
+  <theme name="Aquarium" />
+</project>

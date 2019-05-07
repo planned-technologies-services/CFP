@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="Division" alias="Division" created="2017-06-04T13:24:08" modified="2017-06-04T13:24:14" x="20" y="20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="division_code" fieldName="DivisionCode" label="Division Code" />
+    <column name="division_desc" fieldName="DivisionDesc" label="Division Desc" />
+    <column name="comment" fieldName="Comment" label="Comment" />
+    <column name="created_date" fieldName="CreatedDate" label="Created Date" format="g" />
+    <column name="created_by" fieldName="CreatedBy" label="Created By" />
+    <column name="updated_date" fieldName="UpdatedDate" label="Updated Date" format="g" />
+    <column name="updated_by" fieldName="UpdatedBy" label="Updated By" />
+  </columns>
+</dataModel>
